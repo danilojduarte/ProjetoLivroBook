@@ -7,13 +7,43 @@
    <meta name="author" content="Danilo Duarte">
    <meta name="description" content="Projeto para site adpitavel">
    <meta name="keywords" content="produtos, imagens, valor, social,">
-   
+   <!-- Ano do Projeto -->
+    <meta name="copyright" content="Dezembro/2024 -  Danilo Duarte @danilojduarte">
   <!-- Css -->
   <link rel="stylesheet" href="css/style.css">
+
   <title>Projeto Livro Book</title>
 </head>
 <body>
-  <h1>Danilo Duarte</h1>
+
+  <!-- Cabeçalho e Menu Fixo -->
+  <header class="menu-fixo">
+    <nav>
+      <div class="logo">Site de Produtos</div>
+      <input type="checkbox" id="menu-toggle" class="menu-toggle">
+      <label for="menu-toggle" class="menu-icon">&#9796;</label>
+      <ul class="menu">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#depoimentos">Depoimentos</a></li>
+        <li><a href="#contato">Contatos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Section Hero -->
+   <section id="sobre" class="hero">
+    <video autoplay muted loop class="background-video">
+      <source src="img/001.mp4" type="video.mp4">
+      Seu navegador não suporta o elemento vídeo.
+    </video>
+
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>Aqui vai o texto do titulo do site</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quos et blanditiis quis exercitationem.</p>
+    </div>
+   </section>
   
 </body>
 </html>
